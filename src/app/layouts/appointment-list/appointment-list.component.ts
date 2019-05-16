@@ -22,7 +22,12 @@ export class AppointmentListComponent implements OnInit {
       { field: 'color', header: 'Color' }
   ];
 
-  this.cars=[{"vin" : "test1","year" : "2101","brand":"new", "color": "red"},{"vin" : "test1","year" : "2101","brand":"new", "color": "red"},{"vin" : "test1","year" : "2101","brand":"new", "color": "red"},{"vin" : "test1","year" : "2101","brand":"new", "color": "red"},{"vin" : "test1","year" : "2101","brand":"new", "color": "red"}];
+  this.cars=[
+    {"vin":"test1","year" : "2101","brand":"new", "color": "red"},
+    {"vin" : "test1","year" : "2101","brand":"new", "color": "red"},
+    {"vin" : "test1","year" : "2101","brand":"new", "color": "red"},
+    {"vin" : "test1","year" : "2101","brand":"new", "color": "red"},
+    {"vin" : "test1","year" : "2101","brand":"new", "color": "red"}];
   }
 
 }
