@@ -9,11 +9,24 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav h4 {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 2px 40px;
     text-decoration: none;
     font-size: 17px;
   }
   
+  .header-items {
+    width: 80px;
+  }
+
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ddd;
@@ -24,4 +37,11 @@
   .topnav a.active {
     background-color: #4CAF50;
     color: white;
+  }
+
+  .nav-right{
+    position: relative;
+    float: right;
+    width: auto;
+    display: inline-block;
   }
