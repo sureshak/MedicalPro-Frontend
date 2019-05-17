@@ -22,7 +22,7 @@
     margin: 0 0 12px;
     width: 190px;
     height: 30px;
-    background-image:url('../../../assets/images/sex.png');
+    background-image:url('../../../assets/images/sex.svg');
     background-repeat: no-repeat;
     background-size: 25px 25px;
   }
@@ -35,26 +35,26 @@
               box-sizing: border-box; 
   }
 
-  .wpcf7-textarea {
+  /* .wpcf7-textarea {
     background-image:url('../../../assets/images/description.png');
     background-repeat: no-repeat;
     background-size: 25px 25px;
-  }
+  } */
 
   .wpcf7-name {
-    background-image:url('../../../assets/images/User.png');
+    background-image:url('../../../assets/images/user.svg');
     background-repeat: no-repeat;
     background-size: 25px 25px;
   }
 
   .wpcf7-tel {
-    background-image:url('../../../assets/images/phone.png');
+    background-image:url('../../../assets/images/call.svg');
     background-repeat: no-repeat;
     background-size: 25px 25px;
   }
 
   .wpcf7-age {
-    background-image:url('../../../assets/images/age.png');
+    background-image:url('../../../assets/images/age.svg');
     background-repeat: no-repeat;
     background-size: 25px 25px;
   }

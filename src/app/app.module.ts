@@ -6,8 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './core/components/home/home.component';
 import { HeaderComponent } from './layouts/header/header.component';
 import { AppointmentComponent } from './layouts/appointment/appointment.component';
-import { LoginComponent } from './layouts/login/login.component';
-import { AppointmentListComponent } from './layouts/appointment-list/appointment-list.component';
+import { LoginComponent } from './layouts/login/login.component'; 
 
 @NgModule({
   declarations: [
@@ -15,8 +14,7 @@ import { AppointmentListComponent } from './layouts/appointment-list/appointment
     HomeComponent,
     HeaderComponent,
     AppointmentComponent,
-    LoginComponent,
-    AppointmentListComponent
+    LoginComponent
   ],
   imports: [
     BrowserModule,

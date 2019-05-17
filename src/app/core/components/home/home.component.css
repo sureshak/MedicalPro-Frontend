@@ -1,0 +1,19 @@
+.background-img {
+    /* background-image:url('../../../../assets/images/homepage.jpg'); */
+    height: 100%;
+    width: 100%;
+}
+.background-img img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bgShadow {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+}
