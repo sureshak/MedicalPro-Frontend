@@ -9,19 +9,20 @@ import { LoginComponent } from './layouts/login/login.component';
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
-  },
-  {
-    path:'appointment',
-    component:AppointmentComponent
+    component: HomeComponent,
+    children:[
+      {
+        component:AppointmentComponent,
+        path :'appointment'
+      },{
+        path:'login',
+        component:LoginComponent
+      }
+    ]
   },
   {
     path:"header",
     component:HeaderComponent
-  },
-  {
-    path:'login',
-    component:LoginComponent
   }
 ];
 
