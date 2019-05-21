@@ -1,7 +1,8 @@
 .background-img {
-    /* background-image:url('../../../../assets/images/homepage.jpg'); */
+    background-image:url('../../../../assets/images/homepage.jpg'); 
     height: 100%;
     width: 100%;
+    position: absolute;
 }
 .background-img img {
     width: 100%;

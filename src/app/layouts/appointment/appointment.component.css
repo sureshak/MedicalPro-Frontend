@@ -6,7 +6,10 @@
   
   .landing-page {
     width: 400px;
-    margin: 90px auto 0;  
+    /* margin: 90px auto 0;   */
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
   }
 
   .gender_radio_wrapper{
@@ -119,7 +122,7 @@
     border-radius: 0px;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
     font-family: 'PT Sans', Arial, sans-serif;
-    margin: 20px auto;
+    /* margin: 20px auto; */
   }
   
   .form-appointment input[type=text],
