@@ -1,9 +1,14 @@
+p,a,h1,h2,h3,h4,h5,h6{
+  font-family: 'PT Sans', sans-serif;
+}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #000000db;
     overflow: hidden;
-    top: 44px;
+    top: 27px;
     position: relative;
+    display:inline-block;
+    width:100%;
   }
   
   /* Style the links inside the navigation bar */
