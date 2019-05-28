@@ -6,7 +6,10 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './core/components/home/home.component';
 import { HeaderComponent } from './layouts/header/header.component';
 import { AppointmentComponent } from './layouts/appointment/appointment.component';
-import { LoginComponent } from './layouts/login/login.component'; 
+import { LoginComponent } from './layouts/login/login.component';
+import { MapintegrationComponent } from './layouts/mapintegration/mapintegration.component'; 
+import { AgmCoreModule } from '@agm/core';
+
 
 @NgModule({
   declarations: [
@@ -14,11 +17,16 @@ import { LoginComponent } from './layouts/login/login.component';
     HomeComponent,
     HeaderComponent,
     AppointmentComponent,
-    LoginComponent
+    LoginComponent,
+    MapintegrationComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBZ9HJfT7gRYu9myPQcVa7DSwWEjJtFc50'
+    })
+
   ],
   providers: [],
   bootstrap: [AppComponent]
