@@ -16,9 +16,9 @@ p,a,h1,h2,h3,h4,h5,h6{
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 25px 16px;
+    padding: 20px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .topnav h4 {
@@ -28,6 +28,7 @@ p,a,h1,h2,h3,h4,h5,h6{
     padding: 2px 40px;
     text-decoration: none;
     font-size: 17px;
+    margin: 18px;
   }
   
   .header-items {
