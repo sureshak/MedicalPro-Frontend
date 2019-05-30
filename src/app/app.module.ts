@@ -20,7 +20,11 @@ import { ArticlesComponentComponent } from './articles-component/articles-compon
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBZ9HJfT7gRYu9myPQcVa7DSwWEjJtFc50'
+    })
+
   ],
   providers: [],
   bootstrap: [AppComponent]
