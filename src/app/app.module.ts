@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './core/components/home/home.component';
 import { HeaderComponent } from './layouts/header/header.component';
 import { AppointmentComponent } from './layouts/appointment/appointment.component';
-import { LoginComponent } from './layouts/login/login.component'; 
+import { LoginComponent } from './layouts/login/login.component';
+import { ArticlesComponentComponent } from './articles-component/articles-component.component'; 
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { LoginComponent } from './layouts/login/login.component';
     HomeComponent,
     HeaderComponent,
     AppointmentComponent,
-    LoginComponent
+    LoginComponent,
+    ArticlesComponentComponent
   ],
   imports: [
     BrowserModule,
