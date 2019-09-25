@@ -2,7 +2,7 @@
     background-image:url('../../../../assets/images/homepage.jpg'); 
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: relative;
 }
 .background-img img {
     width: 100%;
@@ -10,12 +10,13 @@
     object-position: center;
 }
 
-.bgShadow {
-    position: fixed;
+.background-img:after {
+    position: absolute;
+    content:'';
     top: 0px;
     left: 0px;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.65);
-    z-index: 0;
+    z-index: 1;
 }
