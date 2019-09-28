@@ -4,3 +4,113 @@ html,body{
     width:100%;
     display:inline-block;
 }
+.banner-inner-content{
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    height: auto;
+    z-index:9;
+  }
+  .landing-page {
+    /*width: 400px;*/
+    /* margin: 90px auto 0;   */
+    /*position: absolute;
+    right: 100px;
+    bottom: 0px;*/
+    width:400px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  /*Copied from login-component.css*/
+  .form-login,.form-appointment{
+    padding: 1em;
+    background-color: rgb(36, 36, 36);
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    /* margin: 20px auto; */
+    z-index: 2;
+}
+
+ input[type=text],
+ input[type=email],
+ input[type=tel],
+ textarea {	
+    border: 1px solid rgb(153, 202, 129);
+    border-radius: 0px;	
+    font-size: 15px;
+    padding: .4em 1em;
+    margin: 0 0 .8em;
+    width: 100%;
+  box-shadow: 0 0 8px rgba(0,0,0,.08) inset;
+}
+
+ input[type=text],
+ input[type=email],
+ input[type=tel],
+ input[type=submit],
+ textarea {	
+    -webkit-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+}
+
+ input[type=text]:active,
+ input[type=text]:focus,
+ input[type=email]:active,
+ input[type=email]:focus,
+ input[type=tel]:active,
+ input[type=tel]:focus,
+ textarea:active,
+ textarea:focus {	
+  outline: 0;
+  border:1px solid #006200;
+}
+
+ input[type=submit] {
+    background-color: #006200;
+    border: #006200;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 15px;
+    padding: 9px 10px;
+}
+
+ input[type=submit]:hover {
+    background-color: white;
+    color:#006200;
+}
+
+ .wpcf7-list-item-label {
+    color: rgb(130, 178, 136);
+    width: auto;
+}
+label {
+  display: block;
+  color:#fff;
+}
+input ,textarea{
+  border: 1px solid rgb(153, 202, 129);
+  background-color: rgb(0,0,0);
+  padding: 3px 5px;
+  box-shadow: 0 0 8px rgba(0,0,0,.08) inset;
+  width: 190px;
+  color: #fff;
+}
+textarea {
+  width:100%;
+  resize:none;  
+  height: 80px;
+}
+select{
+  border: 1px solid rgb(153, 202, 129);
+  background-color: rgb(0,0,0);
+  box-shadow: 0 0 8px rgba(0,0,0,.08) inset;
+  color:#fff;
+}
