@@ -1,3 +1,6 @@
+p,a,h1,h2,h3,h4,h5,h6{
+  font-family: 'PT Sans', sans-serif;
+}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #000000db;
@@ -6,6 +9,7 @@
     position: fixed;
     width: 100%;
     z-index:9;
+
   }
   /* Style the links inside the navigation bar */
   .topnav a {
