@@ -1,255 +1,248 @@
-:host{
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-}
 .group:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-  
-  .landing-page {
-    width: 400px;
-    /* margin: 90px auto 0;   */
-    position: absolute;
-    right: 20px;
-    bottom: 0px;
-  }
-  .appointment-banner{
-    display: inline-block;
-    width: 100%;
-    overflow: hidden;
-    height: 100%;
-    position:relative;
-  }
-  .appointment-banner .landing-page{
-    top:110px;
-    z-index:99;
-  }
-  .gender_radio_wrapper{
-      margin-top: 5px;
-  }
-  .date-input-wrapper{
-    margin: 0 0 12px;
-    border-radius: 0px;
-    height: 30px;
-    width: 48%;
-    background-color: black!important;
-    color: white;
-    padding-left: 40px;
-    border: 1px solid #4e4e4e;
-    background-image:url('../../../assets/images/calendar.svg')!important;
-    background-repeat: no-repeat;
-    background-size: 15px;
-  }
+  content: "";
+  display: block;
+  clear: both;
+}
 
-  .sex-input-wrapper{
-    margin: 0 0 12px;
-    width: 100%;
-    height: 30px;
-    background-image:url('../../../assets/images/sex.svg');
-    background-repeat: no-repeat;
-    background-size: 25px 25px;
-    outline: none;
-  }
+.landing-page {
+  width: 400px;
+  /* margin: 90px auto 0;   */
+  position: absolute;
+  right: 100px;
+  bottom: 0px;
+  top: 140px;
+}
 
-  .timeslot-input-wrapper{
-    margin: 0 0 12px;
-    width: 48%;
-    height: 30px;
-    float: right;
-    background-image:url('../../../assets/images/clock.svg');
-    background-repeat: no-repeat;
-    background-size: 15px;
-    background-position: left;
-    background-position-x: 8px;
-    border: 1px solid #4e4e4e;
-    background-color: black;
-    padding-left: 35px;
-    color: white;
-    outline: none;
-  }
-  
-  .landing-page *,
-  .landing-page *:before,
-  .landing-page *:after {
-      -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-              box-sizing: border-box; 
-  }
-
-  /* .wpcf7-textarea {
-    background-image:url('../../../assets/images/description.png');
-    background-repeat: no-repeat;
-    background-size: 25px 25px;
-  } */
-
-  .wpcf7-name {
-    background-image:url('../../../assets/images/user.svg');
-    background-repeat:no-repeat;
-  }
-
-  .wpcf7-tel {
-    background-image:url('../../../assets/images/call.svg');
-    background-repeat:no-repeat;
-  }
-
-  .wpcf7-age {
-    background-image:url('../../../assets/images/age.svg');
-    background-repeat:no-repeat;
-  }
-  
-  .landing-page .module {
-      border: 1px solid rgb(219, 219, 219);
-      border-radius: 4px;
-      float: left;
-      padding: 2em;
-      width: 48%;
-  }
-  
-  .landing-page .module > *:last-child,
-  .landing-page .module > *:last-child > *:last-child,
-  .landing-page .module > *:last-child > *:last-child > *:last-child {
-      margin: 0;
-      padding: 0;
-  }
-
-  .group h4{
+.gender_radio_wrapper{
     margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 12px;
-    color: white;
-    font-weight: 100;
-    letter-spacing: .5px;
-  }
-  
-  .landing-page .note {	
-      border: 1px dashed;	
-      border-radius: 4px;	
-      color: rgb(115, 136, 96);
-      font-size: .9em;
-      font-style: italic;
-      margin: 20px auto;
-      padding: 2em;
-  }
-  
-  .form-appointment {
-    /*padding: 1em;
-    background-color: rgba(0, 0, 0, 0.86);
-    border-radius: 0px;
-    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);*/
-    /* margin: 20px auto; */
-  }
-  
-  .form-appointment input[type=text],
-  .form-appointment input[type=email],
-  .form-appointment input[type=tel],
-  .form-appointment textarea, 
-  .sex-input-wrapper {	
-    /*border-radius: 0px;
-    font-size: 13px;
-    padding: 5px 5px 5px 35px;
-    border: 1px solid #4e4e4e;
-    color: white;
-    margin: 0 0 .8em;
-    width: 100%;
-    height: 32px;*/
-    padding: 5px 5px 5px 35px;
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: 15px;
-    background-position: left;
-    background-position-x: 8px;
-    outline: none;
-    height:31px;
-  }
-  
-  /*.form-appointment input[type=text],
-  .form-appointment input[type=email],
-  .form-appointment input[type=tel],
-  .form-appointment input[type=submit],
-  .form-appointment textarea {	
-      -webkit-transition: all .2s ease-in-out;
-         -moz-transition: all .2s ease-in-out;
-              transition: all .2s ease-in-out;
-  }
-  
-  .form-appointment input[type=text]:active,
-  .form-appointment input[type=text]:focus,
-  .form-appointment input[type=email]:active,
-  .form-appointment input[type=email]:focus,
-  .form-appointment input[type=tel]:active,
-  .form-appointment input[type=tel]:focus,
-  .form-appointment textarea:active,
-  .form-appointment textarea:focus {	
-    outline: 0;
-    box-shadow: 0 0 6px rgb(176, 226, 188);
-  }
-  
-  .form-appointment textarea {
-      height: 33px;
-      margin-bottom: 5px;
-  }
-  
-  .form-appointment input[type=submit] {
-      background-color: rgb(0, 0, 0);
-      border: 1px solid rgb(160, 160, 160);
-      border-radius: 4px;
-      color: rgb(255, 255, 255);
-      cursor: pointer;
-      font-size: 15px;
-      padding: 9px 10px;
-  }
-  
-  .form-appointment input[type=submit]:hover {
-      background-color: white;
-      color: rgb(118, 207, 118);
-  }*/
-  
-  .form-appointment .wpcf7-list-item-label {
-      color: rgb(130, 178, 136);
-      width: auto;
-  }
-  .radio-input{
-    width: auto;
-  }
-  
-  span.wpcf7-list-item {
-      display: block; 
-      width: auto;
+}
+.date-input-wrapper{
+  margin: 0 0 12px;
+  border-radius: 0px;
+  height: 30px;
+  width: 48%;
+  background-color: black!important;
+  color: white;
+  padding-left: 40px;
+  border: 1px solid #4e4e4e;
+  background-image:url('../../../assets/images/calendar.svg')!important;
+  background-repeat: no-repeat;
+  background-size: 15px;
+}
+
+.sex-input-wrapper{
+  margin: 0 0 12px;
+  width: 100%;
+  height: 30px;
+  background-image:url('../../../assets/images/sex.svg');
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  outline: none;
+}
+
+.description-input-wrapper{
+  margin: 0 0 12px;
+  width: 100%;
+  height: 30px;
+  background-image:url('../../../assets/images/sex.svg');
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  outline: none;
+}
+
+.timeslot-input-wrapper{
+  margin: 0 0 12px;
+  width: 48%;
+  height: 30px;
+  float: right;
+  background-image:url('../../../assets/images/clock.svg');
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: left;
+  background-position-x: 8px;
+  border: 1px solid #4e4e4e;
+  background-color: black;
+  padding-left: 35px;
+  color: white;
+  outline: none;
+}
+
+.landing-page *,
+.landing-page *:before,
+.landing-page *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box; 
+}
+
+.wpcf7-textarea {
+  background-image:url('../../../assets/images/description.svg');
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+} 
+
+.wpcf7-name {
+  background-image:url('../../../assets/images/user.svg');
+}
+
+.wpcf7-tel {
+  background-image:url('../../../assets/images/call.svg');
+}
+
+.wpcf7-age {
+  background-image:url('../../../assets/images/age.svg');
+}
+
+.wpcf7-discription {
+  background-image:url('../../../assets/images/description.svg');
+}
+
+.landing-page .module {
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 4px;
     float: left;
-    margin-right: 15px;
-  }
-  [type="date"] {
-    background-position: left!important;
-    background-position-x: 8px!important;
-    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  no-repeat ;
-    background-size: 15px;
-    background-repeat:no-repeat;
-  }
-  [type="date"]::-webkit-inner-spin-button {
-    display: none;
-  }
-  [type="date"]::-webkit-calendar-picker-indicator {
-    opacity: 0;
-  }
-  
-  /* custom styles */
-  body {
-    padding: 4em;
-    background: #e5e5e5;
-    font: 13px/1.4 Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-  }
-  label {
-    display: block;
-  }
-  input {
-    /* border: 1px solid #c4c4c4;
-    border-radius: 5px;
-    background-color: #fff;
-    padding: 3px 5px;
-    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
-    width: 190px; */
-  }
-  
+    padding: 2em;
+    width: 48%;
+}
+
+.landing-page .module > *:last-child,
+.landing-page .module > *:last-child > *:last-child,
+.landing-page .module > *:last-child > *:last-child > *:last-child {
+    margin: 0;
+    padding: 0;
+}
+
+.group h4{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: white;
+  font-weight: 100;
+  letter-spacing: .5px;
+}
+
+.landing-page .note {	
+    background-color: rgb(236, 248, 236);
+    border: 1px dashed;	
+    border-radius: 4px;	
+    color: rgb(115, 136, 96);
+    font-size: .9em;
+    font-style: italic;
+    margin: 20px auto;
+    padding: 2em;
+}
+
+.form-appointment {
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.86);
+  border-radius: 0px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  /* margin: 20px auto; */
+}
+
+.form-appointment input[type=text],
+.form-appointment input[type=email],
+.form-appointment input[type=tel],
+.form-appointment textarea, 
+.sex-input-wrapper {	
+  border-radius: 0px;
+  font-size: 13px;
+  padding: 5px 5px 5px 35px;
+  border: 1px solid #4e4e4e;
+  color: white;
+  margin: 0 0 .8em;
+  width: 100%;
+  height: 32px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: left;
+  background-position-x: 8px;
+  outline: none;
+}
+
+.form-appointment input[type=text],
+.form-appointment input[type=email],
+.form-appointment input[type=tel],
+.form-appointment input[type=submit],
+.form-appointment textarea {	
+    -webkit-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+}
+
+.form-appointment input[type=text]:active,
+.form-appointment input[type=text]:focus,
+.form-appointment input[type=email]:active,
+.form-appointment input[type=email]:focus,
+.form-appointment input[type=tel]:active,
+.form-appointment input[type=tel]:focus,
+.form-appointment textarea:active,
+.form-appointment textarea:focus {	
+  outline: 0;
+  box-shadow: 0 0 6px rgb(176, 226, 188);
+}
+
+.form-appointment textarea {
+    height: 33px;
+    margin-bottom: 5px;
+}
+
+.form-appointment input[type=submit] {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 15px;
+    padding: 9px 10px;
+}
+
+.form-appointment input[type=submit]:hover {
+    background-color: white;
+    color: rgb(118, 207, 118);
+}
+
+.form-appointment .wpcf7-list-item-label {
+    color: rgb(130, 178, 136);
+    width: auto;
+}
+.radio-input{
+  width: auto;
+}
+
+span.wpcf7-list-item {
+    display: block; 
+    width: auto;
+  float: left;
+  margin-right: 15px;
+}
+[type="date"] {
+  background-position: left!important;
+  background-position-x: 8px!important;
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+/* custom styles */
+body {
+  padding: 4em;
+  background: #e5e5e5;
+  font: 13px/1.4 Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+label {
+  display: block;
+}
+input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 190px;
+}

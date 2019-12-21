@@ -25,6 +25,8 @@ html,body{
     display: inline-block;
     width: 100%;
     height: 100%;
+    bottom: 100px;
+    right:50px;
   }
 
   /*Copied from login-component.css*/
