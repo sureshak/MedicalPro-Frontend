@@ -1,4 +1,5 @@
-.group:after {
+
+.group:after { 
   content: "";
   display: block;
   clear: both;
@@ -14,6 +15,7 @@
 }
 
 .gender_radio_wrapper{
+ 
     margin-top: 5px;
 }
 .date-input-wrapper{
@@ -185,7 +187,7 @@
 
 .form-appointment textarea {
     height: 33px;
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
 }
 
 .form-appointment input[type=submit] {
@@ -246,3 +248,4 @@ input {
   box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
   width: 190px;
 }
+
