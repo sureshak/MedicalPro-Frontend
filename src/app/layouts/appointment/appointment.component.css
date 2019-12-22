@@ -77,12 +77,6 @@
             box-sizing: border-box; 
 }
 
-.wpcf7-textarea {
-  background-image:url('../../../assets/images/description.svg');
-  background-repeat: no-repeat;
-  background-size: 25px 25px;
-} 
-
 .wpcf7-name {
   background-image:url('../../../assets/images/user.svg');
 }
