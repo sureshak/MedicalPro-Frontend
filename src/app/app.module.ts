@@ -9,6 +9,9 @@ import { AppointmentComponent } from './layouts/appointment/appointment.componen
 import { LoginComponent } from './layouts/login/login.component';
 import { MapintegrationComponent } from './layouts/mapintegration/mapintegration.component'; 
 import { AgmCoreModule } from '@agm/core';
+import { BlogComponent } from './core/components/blog/blog.component';
+import { ArticleComponent } from './core/components/article/article.component';
+import { ContactComponent } from './core/components/contact/contact.component';
 
 
 @NgModule({
@@ -18,7 +21,10 @@ import { AgmCoreModule } from '@agm/core';
     HeaderComponent,
     AppointmentComponent,
     LoginComponent,
-    MapintegrationComponent
+    MapintegrationComponent,
+    BlogComponent,
+    ArticleComponent,    
+    ContactComponent
   ],
   imports: [
     BrowserModule,
