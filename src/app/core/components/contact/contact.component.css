@@ -1,0 +1,16 @@
+agm-map {
+    height: 300px;
+   }
+.mapbox{
+    width: 500px;
+    float: right;
+}
+
+.landing-page {
+    width: 400px;
+    /* margin: 90px auto 0;   */
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+    top: 140px;
+  }

@@ -24,7 +24,15 @@ const routes: Routes = [
   }, {
     path: 'contact',
     component: ContactComponent
-  }, { 
+  },
+  {
+    path: 'appointment',
+    component: AppointmentComponent
+  },{
+    path: 'login',
+    component: LoginComponent
+  },
+   { 
     path: '**', 
     component: HomeComponent 
   }
