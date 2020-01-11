@@ -12,7 +12,7 @@ import { AgmCoreModule } from '@agm/core';
 import { BlogComponent } from './core/components/blog/blog.component';
 import { ArticleComponent } from './core/components/article/article.component';
 import { ContactComponent } from './core/components/contact/contact.component';
-import { SiteinfoComponent } from './core/components/siteinfo/siteinfo.component';
+import { SiteinfoComponent } from './layouts/siteinfo/siteinfo.component';
 
 
 @NgModule({

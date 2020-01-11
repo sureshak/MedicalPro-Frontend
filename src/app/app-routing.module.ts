@@ -9,6 +9,7 @@ import { AppointmentComponent } from './layouts/appointment/appointment.componen
 import { HeaderComponent } from './layouts/header/header.component';
 import { LoginComponent } from './layouts/login/login.component';
 import { MapintegrationComponent } from './layouts/mapintegration/mapintegration.component';
+import {SiteinfoComponent} from './layouts/siteinfo/siteinfo.component'
 
 
 const routes: Routes = [
@@ -24,6 +25,9 @@ const routes: Routes = [
   }, {
     path: 'contact',
     component: ContactComponent
+  },{
+    path: 'siteinfo',
+    component: SiteinfoComponent
   },
   {
     path: 'appointment',
